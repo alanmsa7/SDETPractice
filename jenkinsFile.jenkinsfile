@@ -3,7 +3,7 @@ agent any
 stages{
 stage("Build"){
 steps{
-bat "mvn clean"
+bat "java -version"
 echo "Build"
 }
 }
