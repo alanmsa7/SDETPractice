@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-16T16:09:04 IST" name="Suite" finished-at="2022-06-16T16:10:04 IST" duration-ms="60015">
+    <groups>
+    </groups>
+    <test started-at="2022-06-16T16:09:04 IST" name="Test" finished-at="2022-06-16T16:10:04 IST" duration-ms="60015">
+      <class name="dockerSample.dockerSample.chromeStandalone">
+        <test-method is-config="true" signature="startDockerScale()[pri:0, instance:dockerSample.dockerSample.chromeStandalone@243c4f91]" started-at="2022-06-16T16:09:04 IST" name="startDockerScale" finished-at="2022-06-16T16:09:33 IST" duration-ms="29245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerScale -->
+        <test-method signature="chrome()[pri:0, instance:dockerSample.dockerSample.chromeStandalone@243c4f91]" started-at="2022-06-16T16:09:33 IST" name="chrome" finished-at="2022-06-16T16:09:44 IST" duration-ms="10458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome -->
+        <test-method is-config="true" signature="stopDockerDeleteFile()[pri:0, instance:dockerSample.dockerSample.chromeStandalone@243c4f91]" started-at="2022-06-16T16:09:59 IST" name="stopDockerDeleteFile" finished-at="2022-06-16T16:10:04 IST" duration-ms="5283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerDeleteFile -->
+      </class> <!-- dockerSample.dockerSample.chromeStandalone -->
+      <class name="dockerSample.dockerSample.firefoxStandalone">
+        <test-method signature="firefox()[pri:0, instance:dockerSample.dockerSample.firefoxStandalone@5119fb47]" started-at="2022-06-16T16:09:33 IST" name="firefox" finished-at="2022-06-16T16:09:59 IST" duration-ms="25433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefox -->
+      </class> <!-- dockerSample.dockerSample.firefoxStandalone -->
+      <class name="dockerSample.dockerSample.edgeStandalone">
+        <test-method signature="edge()[pri:0, instance:dockerSample.dockerSample.edgeStandalone@7193666c]" started-at="2022-06-16T16:09:33 IST" name="edge" finished-at="2022-06-16T16:09:43 IST" duration-ms="9871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edge -->
+      </class> <!-- dockerSample.dockerSample.edgeStandalone -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
