@@ -1,0 +1,274 @@
+failed to get console mode for stdout: The handle is invalid.
+[1A[1B[0G[?25l[+] Running 0/0
+ - Network dockersample_default  Creating 0.1s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockersample_default  Creating 0.2s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockersample_default  Creating 0.3s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockersample_default  Creating 0.4s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockersample_default  Creating 0.5s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockersample_default  Creating 0.6s
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ - Network dockersample_default  Created 0.7s
+ - Container selenium-hub        Creating 0.0s
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ - Network dockersample_default  Created 0.7s
+ - Container selenium-hub        Creating 0.1s
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ - Network dockersample_default      Created 0.7s
+ - Container selenium-hub            Created 0.2s
+ - Container dockersample-chrome-1   Creating 0.1s
+ - Container dockersample-edge-1     Creating 0.1s
+ - Container dockersample-firefox-1  Creating 0.1s
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/5
+ - Network dockersample_default      Created 0.7s
+ - Container selenium-hub            Created 0.2s
+ - Container dockersample-chrome-1   Created 0.1s
+ - Container dockersample-edge-1     Creating 0.2s
+ - Container dockersample-firefox-1  Creating 0.2s
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 5/5[0m
+ - Network dockersample_default      Created 0.7s
+ - Container selenium-hub            Created 0.2s
+ - Container dockersample-chrome-1   Created 0.1s
+ - Container dockersample-edge-1     Created 0.2s
+ - Container dockersample-firefox-1  Created 0.2s
+[?25hAttaching to dockersample-chrome-1, dockersample-edge-1, dockersample-firefox-1, selenium-hub
+selenium-hub            | 2022-06-15 11:12:47,908 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+selenium-hub            | 2022-06-15 11:12:47,919 INFO supervisord started with pid 8
+selenium-hub            | 2022-06-15 11:12:48,923 INFO spawned: 'selenium-grid-hub' with pid 10
+selenium-hub            | 11:12:49.540 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+selenium-hub            | 2022-06-15 11:12:49,544 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub            | 11:12:49.550 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+selenium-hub            | 11:12:49.754 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.19.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.19.0.2:4443]
+selenium-hub            | 11:12:49.886 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.19.0.2:4442 and tcp://172.19.0.2:4443
+selenium-hub            | 11:12:49.934 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockersample-firefox-1  | 2022-06-15 11:12:50,096 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockersample-firefox-1  | 2022-06-15 11:12:50,102 INFO supervisord started with pid 8
+dockersample-chrome-1   | 2022-06-15 11:12:50,608 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockersample-chrome-1   | 2022-06-15 11:12:50,613 INFO supervisord started with pid 7
+dockersample-edge-1     | 2022-06-15 11:12:50,658 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockersample-edge-1     | 2022-06-15 11:12:50,660 INFO supervisord started with pid 8
+selenium-hub            | 11:12:50.936 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockersample-firefox-1  | 2022-06-15 11:12:51,106 INFO spawned: 'xvfb' with pid 10
+dockersample-firefox-1  | 2022-06-15 11:12:51,108 INFO spawned: 'vnc' with pid 11
+dockersample-firefox-1  | 2022-06-15 11:12:51,111 INFO spawned: 'novnc' with pid 12
+dockersample-firefox-1  | 2022-06-15 11:12:51,116 INFO spawned: 'selenium-node' with pid 14
+dockersample-firefox-1  | 2022-06-15 11:12:51,140 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockersample-firefox-1  | 2022-06-15 11:12:51,140 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockersample-firefox-1  | 2022-06-15 11:12:51,140 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockersample-firefox-1  | 2022-06-15 11:12:51,140 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockersample-firefox-1  | Generating Selenium Config
+dockersample-firefox-1  | Configuring server...
+dockersample-firefox-1  | Setting up SE_NODE_HOST...
+dockersample-firefox-1  | Setting up SE_NODE_PORT...
+dockersample-firefox-1  | Setting up SE_NODE_GRID_URL...
+dockersample-chrome-1   | 2022-06-15 11:12:51,617 INFO spawned: 'xvfb' with pid 9
+dockersample-chrome-1   | 2022-06-15 11:12:51,625 INFO spawned: 'vnc' with pid 10
+dockersample-chrome-1   | 2022-06-15 11:12:51,647 INFO spawned: 'novnc' with pid 11
+dockersample-chrome-1   | 2022-06-15 11:12:51,659 INFO spawned: 'selenium-node' with pid 17
+dockersample-edge-1     | 2022-06-15 11:12:51,670 INFO spawned: 'xvfb' with pid 10
+dockersample-edge-1     | 2022-06-15 11:12:51,694 INFO spawned: 'vnc' with pid 11
+dockersample-edge-1     | 2022-06-15 11:12:51,699 INFO spawned: 'novnc' with pid 13
+dockersample-chrome-1   | 2022-06-15 11:12:51,711 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockersample-chrome-1   | 2022-06-15 11:12:51,711 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockersample-chrome-1   | 2022-06-15 11:12:51,711 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockersample-chrome-1   | 2022-06-15 11:12:51,711 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockersample-edge-1     | 2022-06-15 11:12:51,743 INFO spawned: 'selenium-node' with pid 21
+dockersample-edge-1     | 2022-06-15 11:12:51,764 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockersample-edge-1     | 2022-06-15 11:12:51,764 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockersample-edge-1     | 2022-06-15 11:12:51,765 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockersample-edge-1     | 2022-06-15 11:12:51,765 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockersample-firefox-1  | Selenium Grid Node configuration: 
+dockersample-firefox-1  | [events]
+dockersample-firefox-1  | publish = "tcp://selenium-hub:4442"
+dockersample-firefox-1  | subscribe = "tcp://selenium-hub:4443"
+dockersample-firefox-1  | 
+dockersample-firefox-1  | [node]
+dockersample-firefox-1  | session-timeout = "300"
+dockersample-firefox-1  | override-max-sessions = false
+dockersample-firefox-1  | detect-drivers = false
+dockersample-firefox-1  | drain-after-session-count = 0
+dockersample-firefox-1  | max-sessions = 1
+dockersample-firefox-1  | 
+dockersample-firefox-1  | [[node.driver-configuration]]
+dockersample-firefox-1  | display-name = "firefox"
+dockersample-firefox-1  | stereotype = '{"browserName": "firefox", "browserVersion": "101.0", "platformName": "Linux"}'
+dockersample-firefox-1  | max-sessions = 1
+dockersample-firefox-1  | 
+dockersample-firefox-1  | Starting Selenium Grid Node...
+dockersample-chrome-1   | Generating Selenium Config
+dockersample-chrome-1   | Configuring server...
+dockersample-chrome-1   | Setting up SE_NODE_HOST...
+dockersample-chrome-1   | Setting up SE_NODE_PORT...
+dockersample-chrome-1   | Setting up SE_NODE_GRID_URL...
+dockersample-edge-1     | Generating Selenium Config
+dockersample-edge-1     | Configuring server...
+dockersample-edge-1     | Setting up SE_NODE_HOST...
+dockersample-edge-1     | Setting up SE_NODE_PORT...
+dockersample-edge-1     | Setting up SE_NODE_GRID_URL...
+selenium-hub            | 11:12:52.630 INFO [Hub.execute] - Started Selenium Hub 4.2.2 (revision 683ccb65d6): http://172.19.0.2:4444
+dockersample-chrome-1   | Selenium Grid Node configuration: 
+dockersample-chrome-1   | [events]
+dockersample-chrome-1   | publish = "tcp://selenium-hub:4442"
+dockersample-chrome-1   | subscribe = "tcp://selenium-hub:4443"
+dockersample-chrome-1   | 
+dockersample-chrome-1   | [node]
+dockersample-chrome-1   | session-timeout = "300"
+dockersample-chrome-1   | override-max-sessions = false
+dockersample-chrome-1   | detect-drivers = false
+dockersample-chrome-1   | drain-after-session-count = 0
+dockersample-chrome-1   | max-sessions = 1
+dockersample-chrome-1   | 
+dockersample-chrome-1   | [[node.driver-configuration]]
+dockersample-chrome-1   | display-name = "chrome"
+dockersample-chrome-1   | stereotype = '{"browserName": "chrome", "browserVersion": "102.0", "platformName": "Linux"}'
+dockersample-chrome-1   | max-sessions = 1
+dockersample-chrome-1   | 
+dockersample-chrome-1   | Starting Selenium Grid Node...
+dockersample-edge-1     | Selenium Grid Node configuration: 
+dockersample-edge-1     | [events]
+dockersample-edge-1     | publish = "tcp://selenium-hub:4442"
+dockersample-edge-1     | subscribe = "tcp://selenium-hub:4443"
+dockersample-edge-1     | 
+dockersample-edge-1     | [node]
+dockersample-edge-1     | session-timeout = "300"
+dockersample-edge-1     | override-max-sessions = false
+dockersample-edge-1     | detect-drivers = false
+dockersample-edge-1     | drain-after-session-count = 0
+dockersample-edge-1     | max-sessions = 1
+dockersample-edge-1     | 
+dockersample-edge-1     | [[node.driver-configuration]]
+dockersample-edge-1     | display-name = "MicrosoftEdge"
+dockersample-edge-1     | stereotype = '{"browserName": "MicrosoftEdge", "browserVersion": "102.0", "platformName": "Linux"}'
+dockersample-edge-1     | max-sessions = 1
+dockersample-edge-1     | 
+dockersample-edge-1     | Starting Selenium Grid Node...
+dockersample-firefox-1  | 11:12:53.098 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockersample-firefox-1  | 11:12:53.107 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockersample-firefox-1  | 11:12:53.383 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockersample-firefox-1  | 11:12:53.553 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockersample-chrome-1   | 11:12:53.577 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockersample-chrome-1   | 11:12:53.612 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockersample-edge-1     | 11:12:53.628 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockersample-edge-1     | 11:12:53.637 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockersample-edge-1     | 11:12:54.034 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockersample-chrome-1   | 11:12:54.037 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockersample-edge-1     | 11:12:54.152 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockersample-chrome-1   | 11:12:54.171 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockersample-firefox-1  | 11:12:54.569 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockersample-firefox-1  | 11:12:54.832 INFO [NodeServer.createHandlers] - Reporting self as: http://172.19.0.3:5555
+dockersample-firefox-1  | 11:12:54.859 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+dockersample-firefox-1  | 11:12:54.924 INFO [NodeOptions.report] - Adding firefox for {"browserVersion": "101.0","se:noVncPort": 7900,"browserName": "firefox","platformName": "LINUX","se:vncEnabled": true} 1 times
+dockersample-firefox-1  | 11:12:54.939 INFO [Node.<init>] - Binding additional locator mechanisms: relative, name, id
+dockersample-edge-1     | 11:12:55.161 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockersample-chrome-1   | 11:12:55.176 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockersample-firefox-1  | 11:12:55.191 INFO [NodeServer$1.start] - Starting registration process for Node http://172.19.0.3:5555
+dockersample-firefox-1  | 11:12:55.197 INFO [NodeServer.execute] - Started Selenium node 4.2.2 (revision 683ccb65d6): http://172.19.0.3:5555
+dockersample-firefox-1  | 11:12:55.223 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub            | 11:12:55.335 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+dockersample-edge-1     | 11:12:55.578 INFO [NodeServer.createHandlers] - Reporting self as: http://172.19.0.5:5555
+dockersample-chrome-1   | 11:12:55.579 INFO [NodeServer.createHandlers] - Reporting self as: http://172.19.0.4:5555
+dockersample-edge-1     | 11:12:55.636 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+dockersample-chrome-1   | 11:12:55.643 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+dockersample-edge-1     | 11:12:55.768 INFO [NodeOptions.report] - Adding MicrosoftEdge for {"browserVersion": "102.0","se:noVncPort": 7900,"browserName": "MicrosoftEdge","platformName": "LINUX","se:vncEnabled": true} 1 times
+dockersample-chrome-1   | 11:12:55.788 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "102.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
+dockersample-edge-1     | 11:12:55.808 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+dockersample-chrome-1   | 11:12:55.850 INFO [Node.<init>] - Binding additional locator mechanisms: name, id, relative
+dockersample-edge-1     | 11:12:56.357 INFO [NodeServer$1.start] - Starting registration process for Node http://172.19.0.5:5555
+dockersample-edge-1     | 11:12:56.369 INFO [NodeServer.execute] - Started Selenium node 4.2.2 (revision 683ccb65d6): http://172.19.0.5:5555
+dockersample-chrome-1   | 11:12:56.400 INFO [NodeServer$1.start] - Starting registration process for Node http://172.19.0.4:5555
+dockersample-chrome-1   | 11:12:56.404 INFO [NodeServer.execute] - Started Selenium node 4.2.2 (revision 683ccb65d6): http://172.19.0.4:5555
+dockersample-edge-1     | 11:12:56.404 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+dockersample-chrome-1   | 11:12:56.438 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub            | 11:12:56.725 INFO [GridModel.setAvailability] - Switching Node 7075d752-2319-4e5d-9157-abb13751bcbf (uri: http://172.19.0.3:5555) from DOWN to UP
+selenium-hub            | 11:12:56.726 INFO [LocalDistributor.add] - Added node 7075d752-2319-4e5d-9157-abb13751bcbf at http://172.19.0.3:5555. Health check every 120s
+selenium-hub            | 11:12:56.733 INFO [Node.<init>] - Binding additional locator mechanisms: id, relative, name
+dockersample-firefox-1  | 11:12:56.767 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub            | 11:12:56.970 INFO [GridModel.setAvailability] - Switching Node 8191bf2e-3212-4a41-aa9f-bab7d7838068 (uri: http://172.19.0.5:5555) from DOWN to UP
+selenium-hub            | 11:12:56.970 INFO [LocalDistributor.add] - Added node 8191bf2e-3212-4a41-aa9f-bab7d7838068 at http://172.19.0.5:5555. Health check every 120s
+selenium-hub            | 11:12:56.973 INFO [Node.<init>] - Binding additional locator mechanisms: id, relative, name
+dockersample-edge-1     | 11:12:56.975 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub            | 11:12:57.134 INFO [GridModel.setAvailability] - Switching Node 433011d7-84ad-4eef-9c2b-8627b3acb3ea (uri: http://172.19.0.4:5555) from DOWN to UP
+selenium-hub            | 11:12:57.135 INFO [LocalDistributor.add] - Added node 433011d7-84ad-4eef-9c2b-8627b3acb3ea at http://172.19.0.4:5555. Health check every 120s
+dockersample-chrome-1   | 11:12:57.143 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub            | 11:13:14.936 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub            |  [Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]
+selenium-hub            | 11:13:14.936 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub            |  [Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]
+selenium-hub            | 11:13:14.936 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub            |  [Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]
+dockersample-firefox-1  | 1655291595170	geckodriver	INFO	Listening on 127.0.0.1:44625
+dockersample-chrome-1   | Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 44116
+dockersample-chrome-1   | Only local connections are allowed.
+dockersample-chrome-1   | Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+dockersample-edge-1     | Starting Microsoft Edge WebDriver 102.0.1245.33 (41285f1c5672f618820f679d5efba8bafa4828de) on port 38913
+dockersample-edge-1     | To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+dockersample-edge-1     | 
+dockersample-edge-1     | Only local connections are allowed.
+dockersample-edge-1     | Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+dockersample-edge-1     | 
+dockersample-chrome-1   | [1655291595.232][SEVERE]: bind() failed: Cannot assign requested address (99)
+dockersample-chrome-1   | ChromeDriver was started successfully.
+dockersample-edge-1     | [1655291595.285][SEVERE]: bind() failed: Cannot assign requested address (99)
+dockersample-edge-1     | Microsoft Edge WebDriver was started successfully.
+dockersample-firefox-1  | 1655291596065	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54481" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://localhost:54481/" "-no-remote" "-profile" "/tmp/rust_mozprofileLqGQKM"
+dockersample-firefox-1  | [GFX1-]: glxtest: libpci missing
+dockersample-firefox-1  | [GFX1-]: glxtest: libEGL missing
+dockersample-firefox-1  | 1655291597918	Marionette	INFO	Marionette enabled
+dockersample-firefox-1  | WebDriver BiDi listening on ws://localhost:54481
+dockersample-chrome-1   | 11:13:18.492 INFO [ProtocolHandshake.createSession] - Detected upstream dialect: W3C
+dockersample-chrome-1   | 11:13:18.545 INFO [LocalNode.newSession] - Session created by the Node. Id: ad1135325faa1aa2483997afc77444bf, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.jPUcxE}, goog:chromeOptions: {debuggerAddress: localhost:42531}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: http://localhost:42531, se:cdpVersion: 102.0.5005.61, se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenium-hub            | 11:13:18.663 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: ad1135325faa1aa2483997afc77444bf 
+selenium-hub            |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.jPUcxE}, goog:chromeOptions: {debuggerAddress: localhost:42531}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: {}, se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 102.0.5005.61, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+dockersample-edge-1     | 11:13:19.284 INFO [ProtocolHandshake.createSession] - Detected upstream dialect: W3C
+dockersample-edge-1     | 11:13:19.315 INFO [LocalNode.newSession] - Session created by the Node. Id: 06c2e63f761fd797a3b9617c97ef0e3e, Caps: Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.33, ms:edgeOptions: {debuggerAddress: localhost:41485}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: /tmp/.com.microsoft.Edge.AX...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: http://localhost:41485, se:cdpVersion: 102.0.1245.33, se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenium-hub            | 11:13:19.340 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 06c2e63f761fd797a3b9617c97ef0e3e 
+selenium-hub            |  Caps: Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.33, ms:edgeOptions: {debuggerAddress: localhost:41485}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: /tmp/.com.microsoft.Edge.AX...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: {}, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 102.0.1245.33, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+dockersample-firefox-1  | console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLqGQKM/search.json.mozlz4", (void 0)))
+dockersample-firefox-1  | 1655291602298	Marionette	INFO	Listening on port 42611
+dockersample-firefox-1  | Read port: 42611
+dockersample-firefox-1  | 1655291602353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+dockersample-firefox-1  | 11:13:22.408 INFO [ProtocolHandshake.createSession] - Detected upstream dialect: W3C
+dockersample-firefox-1  | 11:13:22.436 INFO [LocalNode.newSession] - Session created by the Node. Id: bcc14863-862f-435b-884b-7d7394de0097, Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:54481, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 159, moz:profile: /tmp/rust_mozprofileLqGQKM, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: LINUX, platformVersion: 5.10.16.3-microsoft-standar..., proxy: Proxy(), se:cdp: http://localhost:54481, se:cdpVersion: 85.0, se:noVncPort: 7900, se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+dockersample-firefox-1  | DevTools listening on ws://localhost:54481/devtools/browser/3e5e8526-8f5a-4380-8a98-88d819727b41
+selenium-hub            | 11:13:22.462 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: bcc14863-862f-435b-884b-7d7394de0097 
+selenium-hub            |  Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:54481, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 159, moz:profile: /tmp/rust_mozprofileLqGQKM, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: LINUX, platformVersion: 5.10.16.3-microsoft-standar..., proxy: {}, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+dockersample-edge-1     | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockersample-chrome-1   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockersample-firefox-1  | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockersample-chrome-1   | 2022-06-15 11:13:40,647 WARN received SIGTERM indicating exit request
+dockersample-chrome-1   | 2022-06-15 11:13:40,706 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+selenium-hub            | 11:13:40.823 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: ad1135325faa1aa2483997afc77444bf
+selenium-hub            | 11:13:40.824 INFO [GridModel.release] - Releasing slot for session id ad1135325faa1aa2483997afc77444bf
+dockersample-chrome-1   | 2022-06-15 11:13:41,158 INFO stopped: selenium-node (terminated by SIGTERM)
+dockersample-edge-1     | 2022-06-15 11:13:41,375 WARN received SIGTERM indicating exit request
+dockersample-edge-1     | 2022-06-15 11:13:41,390 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+selenium-hub            | 11:13:41.469 INFO [GridModel.release] - Releasing slot for session id 06c2e63f761fd797a3b9617c97ef0e3e
+selenium-hub            | 11:13:41.470 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 06c2e63f761fd797a3b9617c97ef0e3e
+dockersample-firefox-1  | 2022-06-15 11:13:41,503 WARN received SIGTERM indicating exit request
+dockersample-firefox-1  | 2022-06-15 11:13:41,523 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+selenium-hub            | 11:13:41.644 INFO [GridModel.release] - Releasing slot for session id bcc14863-862f-435b-884b-7d7394de0097
+selenium-hub            | 11:13:41.644 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: bcc14863-862f-435b-884b-7d7394de0097
+dockersample-edge-1     | 2022-06-15 11:13:41,815 INFO stopped: selenium-node (terminated by SIGTERM)
+dockersample-firefox-1  | 2022-06-15 11:13:41,978 INFO stopped: selenium-node (terminated by SIGTERM)
+dockersample-chrome-1   | 2022-06-15 11:13:42,166 INFO stopped: novnc (terminated by SIGTERM)
+dockersample-edge-1     | 2022-06-15 11:13:42,822 INFO stopped: novnc (terminated by SIGTERM)
+dockersample-firefox-1  | 2022-06-15 11:13:42,986 INFO stopped: novnc (terminated by SIGTERM)
+dockersample-chrome-1   | 2022-06-15 11:13:43,170 INFO stopped: vnc (terminated by SIGTERM)
+dockersample-edge-1     | 2022-06-15 11:13:43,824 INFO stopped: vnc (terminated by SIGTERM)
+dockersample-firefox-1  | 2022-06-15 11:13:43,991 INFO stopped: vnc (terminated by SIGTERM)
+dockersample-chrome-1   | 2022-06-15 11:13:44,173 INFO stopped: xvfb (terminated by SIGTERM)
+dockersample-chrome-1   | Shutdown complete
+dockersample-edge-1     | 2022-06-15 11:13:44,827 INFO stopped: xvfb (terminated by SIGTERM)
+dockersample-edge-1     | Shutdown complete
+dockersample-firefox-1  | 2022-06-15 11:13:44,994 INFO stopped: xvfb (terminated by SIGTERM)
+dockersample-firefox-1  | Shutdown complete
+dockersample-chrome-1 exited with code 143
+dockersample-edge-1 exited with code 143
+dockersample-firefox-1 exited with code 143
+Gracefully stopping... (press Ctrl+C again to force)
+failed to get console mode for stdout: The handle is invalid.
+failed to get console mode for stdout: The handle is invalid.
