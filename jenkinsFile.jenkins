@@ -20,6 +20,7 @@ stage("Release"){
 step{
 echo "Release"
 }
+
 }
 }
 }
