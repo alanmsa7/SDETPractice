@@ -4,6 +4,7 @@ stages{
 stage("Build"){
 steps{
 echo "Build"
+bat "mvn clean"
 }
 }
 stage("Deploy"){
@@ -14,6 +15,7 @@ echo "Deploy"
 stage("Test"){
 steps{
 echo "Test"
+bat "mvn test"
 }
 }
 stage("Release"){
